@@ -20,10 +20,10 @@ dns.resolver.default_resolver = dns.resolver.Resolver(configure=False)
 dns.resolver.default_resolver.nameservers = ['8.8.8.8']  # Google DNS
 MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://teamdaxx123:teamdaxx123@cluster0.ysbpgcp.mongodb.net/?retryWrites=true&w=majority")
 client = MongoClient(MONGO_URL, connectTimeoutMS=30000, serverSelectionTimeoutMS=30000)
-BOT_USERNAME = os.environ.get("BOT_USERNAME","ITZ_MERADHIKABOT") 
+BOT_USERNAME = os.environ.get("BOT_USERNAME","ishani_chatting_bot") 
 UPDATE_CHNL = os.environ.get("UPDATE_CHNL","SHIVANSH474")
-OWNER_USERNAME = os.environ.get("OWNER_USERNAME","SHIVANSHDEVS")
-SUPPORT_GRP = os.environ.get("SUPPORT_GRP","MASTIWITHFRIENDSXD")
+OWNER_USERNAME = os.environ.get("OWNER_USERNAME","mr_aman_077")
+SUPPORT_GRP = os.environ.get("SUPPORT_GRP","flirtingworldchatting")
 BOT_NAME = os.environ.get("BOT_NAME","RADHIKA")
 START_IMG = os.environ.get("START_IMG","https://graph.org/file/6ccfbda0b79239188c14c.jpg")
 
